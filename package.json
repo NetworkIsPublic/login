@@ -1,0 +1,26 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Use any website account to log in your website.",
+  "main": "index.js",
+  "scripts": {
+    "server:start": "node ./server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NetworkIsPublic/login.git"
+  },
+  "author": "echosoar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NetworkIsPublic/login/issues"
+  },
+  "homepage": "https://github.com/NetworkIsPublic/login#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "md5": "^2.2.1",
+    "tablestore": "^4.1.0"
+  }
+}
